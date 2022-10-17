@@ -1,4 +1,4 @@
-# Third Party Crawler
+# Third Party Checker
 
 Tool for crawling a website and checking for third party tool using puppeteer.
 
