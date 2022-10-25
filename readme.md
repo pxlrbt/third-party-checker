@@ -21,7 +21,7 @@ The default command only checks the front page for third party request. If you w
 
 ```sh
 ./third-party-checker.js --crawl sites.yml
-
+```
 
 ## Sites.yml
 ```yml
