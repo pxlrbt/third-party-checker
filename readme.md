@@ -16,6 +16,13 @@ npm install
 - Create a `report` folder.
 - Run `./third-party-checker.js sites.yml`.
 
+### Crawler
+The default command only checks the front page for third party request. If you want to crawl the whole page use the `--crawl` flag.
+
+```sh
+./third-party-checker.js --crawl sites.yml
+
+
 ## Sites.yml
 ```yml
 - domain-a.com
