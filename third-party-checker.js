@@ -113,6 +113,7 @@ async function main() {
             url: site,
             total: allThirdPartyRequests.length,
             googleFonts: allThirdPartyRequests.filter(url => url.includes('fonts.googleapis.com')).length ? 'YES' : 'NO',
+            googleAnalytics: allThirdPartyRequests.filter(url => url.includes('fonts.googleapis.com')).length ? 'YES' : 'NO',
             requests: allThirdPartyRequests,
         }
 
